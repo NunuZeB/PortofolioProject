@@ -1,0 +1,108 @@
+body {
+         
+    background-color: #f8e5f8;
+  }
+  
+  header {
+    background-color: #bb9eb6;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  /* navigation links */
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  nav a:hover {
+    background-color: #555;
+  }
+  
+  /* section headings */
+  section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  /*  interest cards */
+  .card {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .card h3 {
+    margin-top: 0;
+  }
+  
+  .card p {
+    margin-bottom: 0;
+  }
+  
+  .card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  /* interest details */
+  .details {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .details h3 {
+    margin-top: 0;
+  }
+  
+  .details p {
+    margin-bottom: 0;
+  }
+  
+  .details img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  /*  interest links */
+  .links {
+    margin-top: 20px;
+  }
+  
+  .links a {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .links a:hover {
+    background-color: #555;
+  }
+  .slide-in {
+transform: translateX(-100%);
+animation: slideIn ease 1s;
+animation-fill-mode: forwards;
+}
+.containerinter{
+text-align: center;
+
+}
+@keyframes slideIn {
+0% {
+transform: translateX(-100%);
+}
+100% {
+transform: translateX(0%);
+}
+}
+
